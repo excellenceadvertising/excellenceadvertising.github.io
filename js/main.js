@@ -144,6 +144,9 @@
 
 	         navigation_links.parent().removeClass("current");
 				active_link.parent().addClass("current");
+			  if (active_link.text().trim() !== "Home") {
+				  $("#hero-video").prop("muted", true);
+			  }
 
 			},
 			offset: '25%'
