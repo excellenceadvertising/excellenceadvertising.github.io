@@ -38,7 +38,7 @@ p {
 }
 
 #portfolio {
-	background: url("/images/portfolio-bg.jpg");
+	background-image: url("/images/portfolio-bg.jpg");
 }
 #portfolio, #about, #whyus, #team, #execution, #contact {
 	padding-bottom: 10rem;
@@ -96,7 +96,7 @@ p {
 }
 
 #about {
-	background: url("/images/about-bg.jpg");
+	background-image: url("/images/about-bg.jpg");
 	min-height: 100vh;
 }
 
@@ -116,7 +116,7 @@ p {
 }
 
 #team {
-	background: url("/images/team-bg.jpg");
+	background-image: url("/images/team-bg.jpg");
 	min-height: 100vh;
 	padding-top: 120px;
 }
@@ -149,7 +149,7 @@ p {
 #execution {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: url("/images/execution-bg.jpg");
+	background-image: url("/images/execution-bg.jpg");
 	text-align: center;
 	color: white;
 }
@@ -163,7 +163,7 @@ p {
 }
 
 #contact {
-	background: url("/images/contact-bg.png");
+	background-image: url("/images/contact-bg.png");
 	background-size: contain;
 }
 
