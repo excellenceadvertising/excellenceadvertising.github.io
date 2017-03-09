@@ -2,8 +2,12 @@
 	z-index: 30;
 }
 
-#hero marquee {
-    opacity: 0.5;
+#hero {
+	background: transparent;
+}
+
+#video-overlay {
+    opacity: 0.3;
     font-family: Impact;
     font-size: 1000px;
     position: absolute;
@@ -18,3 +22,5 @@
     overflow:visible;
     z-index: 20;
 }
+
+.video { background-size: cover; width: 100%; height: auto; position: relative; z-index: 0; display: block; }
